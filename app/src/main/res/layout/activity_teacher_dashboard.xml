@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pink_background">
+
+    <TextView
+        android:id="@+id/welcomeTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Teacher Dashboard"
+        android:textSize="24sp"
+        android:textColor="@android:color/black"
+        android:gravity="center"
+        android:padding="20dp" />
+
+    <Button
+        android:id="@+id/addQuizButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add New Quiz"
+        android:layout_below="@id/welcomeTextView"
+        android:layout_margin="20dp"
+        android:background="@drawable/button_bg"
+        android:textColor="@android:color/white"
+        android:padding="15dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/quizRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/addQuizButton"
+        android:layout_margin="10dp" />
+
+    <Button
+        android:id="@+id/viewResultsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View All Results"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="20dp"
+        android:background="@drawable/button_bg"
+        android:textColor="@android:color/white"
+        android:padding="15dp" />
+
+</RelativeLayout>

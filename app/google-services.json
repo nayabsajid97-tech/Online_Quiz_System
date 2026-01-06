@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "718681113244",
+    "project_id": "quizsystem-c0282",
+    "storage_bucket": "quizsystem-c0282.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:718681113244:android:e8502d2cb1227ce12de359",
+        "android_client_info": {
+          "package_name": "com.example.quizsystem"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBq1bnW6kp2qazo4CPaN3KLuVkZLk-NfJE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,14 @@
+<resources>
+    <style name="Theme.QuizSystem" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/navy_blue</item>
+        <item name="colorPrimaryVariant">@color/navy_blue</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/pink_background</item>
+        <item name="colorSecondaryVariant">@color/pink_background</item>
+        <item name="colorOnSecondary">@color/black</item>
+    </style>
+    <style name="AlertDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorPrimary">@color/navy_blue</item>
+        <item name="colorAccent">@color/navy_blue</item>
+    </style>
+</resources>
